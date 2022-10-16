@@ -43,6 +43,6 @@
       "@omnigraph/*": ["packages/loaders/*/src/index.ts"]
     }
   },
-  "include": ["./declarations.d.ts", "packages"],
+  "include": ["./declarations.d.ts", "packages", "./src/**/*.ts"],
   "exclude": ["**/node_modules", "**/dist"]
 }
