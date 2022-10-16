@@ -32,7 +32,8 @@
   },
   "scripts": {
     "build": "yarn transpile-ts && bob build",
-    "transpile-ts": "tsc --project tsconfig.build.json"
+    "transpile-ts": "tsc --project tsconfig.build.json",
+    "postinstall": "yarn"
   },
   "dependencies": {
     "@graphql-mesh/cross-helpers": "0.2.6",
